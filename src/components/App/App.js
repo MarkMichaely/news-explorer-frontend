@@ -10,7 +10,10 @@ import SavedNews from '../SavedNews/SavedNews'
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div className='header-wrapper'>
+        <Header />
+      </div>
+
       <Switch>
         <Route exact path={'/'}>
           <Main />
