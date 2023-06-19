@@ -1,0 +1,29 @@
+.title {
+	margin: min(80px, 5.55vw) 0 min(88px, 6.111vw);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.title__title {
+	margin: 0 0 32px;
+	padding: 0;
+	max-width: min(608px, 42.22vw);
+	font-family: "Roboto Slab, Arial, sans-serif";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 1.07;
+	color: #ffffff;
+}
+.title__sub-title {
+	margin: 0;
+	padding: 0;
+	max-width: min(608px, 42.22vw);
+	font-family: "Roboto,Arial, sans-serif";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.33;
+	color: #ffffff;
+}

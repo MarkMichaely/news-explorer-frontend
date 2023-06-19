@@ -1,4 +1,6 @@
+import About from "../About/About";
+
 function Main() {
-    return (<></>)
+    return (<About />)
 }
 export default Main;
