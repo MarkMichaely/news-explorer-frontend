@@ -18,22 +18,22 @@ function Footer() {
                     </a>
                 </div>
                 <div className='footer__social'>
-                    <a href="https://github.com/MarkMichaely/" class="footer__social-link"
+                    <a href="https://github.com/MarkMichaely/" className="footer__social-link"
                     ><img
                             src={githubIcon}
                             alt="github-icon"
-                            class="footer__social-icon"
+                            className="footer__social-icon"
                         />
                     </a>
-                    <a href="https://facebook.com" class="footer__social-link"
+                    <a href="https://facebook.com" className="footer__social-link"
                     ><img
                             src={facebookIcon}
                             alt="facebook-icon"
-                            class="footer__social-icon"
+                            className="footer__social-icon"
                         />
                     </a>
                 </div>
             </div>
-        </footer>)
+        </footer >)
 }
 export default Footer;
