@@ -14,7 +14,7 @@ function App() {
       <div className='header-wrapper'>
         <Header />
         <Title />
-        {/* <SearchForm /> */}
+        <SearchForm />
       </div>
 
       <Switch>

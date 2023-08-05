@@ -2,5 +2,8 @@
 	background: url("../images/georgia-de-lotz--UsJoNxLaNo-unsplash-min.png");
 	width: 100%;
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 0 0 80px;
+	position: relative;
 }

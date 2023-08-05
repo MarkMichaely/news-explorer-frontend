@@ -18,7 +18,7 @@
 .header__text {
 	padding: 0;
 	margin: 0;
-	font-family: "Roboto Slab, Arial, sans-serif;";
+	font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
@@ -41,7 +41,7 @@
 .header__link {
 	padding: 0;
 	margin: 0;
-	font-family: "Roboto Slab, Arial, sans-serif;";
+	font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
@@ -69,7 +69,7 @@
 	height: 48px;
 	color: #ffffff;
 	background-color: transparent;
-	font-family: "Roboto", Arial, sans-serif;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 18px;
