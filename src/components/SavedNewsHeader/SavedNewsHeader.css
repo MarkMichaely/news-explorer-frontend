@@ -43,7 +43,8 @@
 @media screen and (max-width: 800px) {
 	.news-header {
 		max-width: 100%;
-		padding: 24px 0 16px 32px;
+		padding: 0 0 16px 32px;
+		margin-top: 24px;
 	}
 	.news-header__page {
 		font-size: 12px;
