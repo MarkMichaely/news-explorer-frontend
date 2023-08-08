@@ -1,5 +1,5 @@
 .title {
-	margin: min(80px, 5.55vw) 0 min(88px, 6.111vw);
+	margin: 80px 0;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -8,7 +8,7 @@
 .title__title {
 	margin: 0 0 32px;
 	padding: 0;
-	max-width: min(608px, 42.22vw);
+	max-width: 608px;
 	font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -19,11 +19,43 @@
 .title__sub-title {
 	margin: 0;
 	padding: 0;
-	max-width: min(608px, 42.22vw);
+	max-width: 608px;
 	font-family: "Roboto", Arial, Helvetica, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 1.33;
 	color: #ffffff;
+}
+
+@media screen and (max-width: 868px) {
+	.title {
+		margin: 48px 0;
+	}
+
+	.title__title {
+		line-height: 1.11;
+		max-width: 452px;
+		font-size: 42px;
+	}
+	.title__sub-title {
+		max-width: 452px;
+	}
+}
+@media screen and (max-width: 868px) {
+	.title {
+		margin: 38px 0 48px 0;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.title__title {
+		font-size: 36px;
+		line-height: 1.11;
+		max-width: 285px;
+	}
+
+	.title__sub-title {
+		max-width: 288px;
+	}
 }

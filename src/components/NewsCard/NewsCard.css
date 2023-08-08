@@ -5,6 +5,7 @@
 	max-width: 400px;
 	min-height: 576px;
 	border-radius: 5%;
+	list-style-type: none;
 }
 
 .card__image {
@@ -56,6 +57,7 @@
 
 .card__trash-button:hover {
 	cursor: pointer;
+	background-image: url("../../images/trashIconBlack.svg");
 }
 
 .card__span {
@@ -149,4 +151,83 @@
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	margin: 0;
+}
+
+@media screen and (max-width: 1350px) {
+	.card {
+		max-width: 340px;
+		min-height: 500px;
+	}
+	.card__image {
+		height: 170px;
+	}
+	.card__content {
+		height: 330px;
+	}
+	.card__header {
+		font-size: 22px;
+		line-height: 1.09;
+		height: 72px;
+	}
+	.card__text {
+		height: 192px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.card {
+		max-width: 224px;
+		min-height: 420px;
+	}
+	.card__content {
+		height: 270px;
+		text-overflow: ellipsis;
+	}
+	.card__text {
+		height: 88px;
+	}
+	.card__save-button {
+		top: 8px;
+		right: 8px;
+	}
+	.card__trash-button {
+		top: 8px;
+		right: 8px;
+	}
+	.card__span {
+		top: 8px;
+	}
+	.card__span_type_keywords {
+		left: 8px;
+	}
+	.card__span_type_message {
+		right: 53px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.card {
+		max-width: 288px;
+		min-height: 440px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.card__save-button {
+		top: 16px;
+		right: 16px;
+	}
+	.card__trash-button {
+		top: 16px;
+		right: 16px;
+	}
+	.card__span {
+		top: 16px;
+	}
+	.card__span_type_keywords {
+		left: 16px;
+	}
+	.card__span_type_message {
+		right: 61px;
+	}
 }

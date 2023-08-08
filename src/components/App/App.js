@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Redirect, Route, Switch, useHistory } from "react-router-dom";
+import { Route, Switch, } from "react-router-dom";
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
@@ -10,8 +10,6 @@ import Title from '../Title/Title';
 import SavedNewsHeader from '../SavedNewsHeader/SavedNewsHeader';
 
 function App() {
-  const currentPage = useHistory().location.pathname;
-  console.log(currentPage);
   return (
     <div className="App">
 

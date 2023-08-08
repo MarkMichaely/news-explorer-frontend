@@ -1,6 +1,6 @@
 .search-form {
 	position: relative;
-	max-width: min(608px, 42.22vw);
+	max-width: 608px;
 	margin: 0 auto 0;
 }
 
@@ -64,7 +64,11 @@
 		padding: 16px 52px;
 	}
 }
-
+@media screen and (max-width: 868px) {
+	.search-form {
+		max-width: 452px;
+	}
+}
 @media screen and (max-width: 500px) {
 	.search-form {
 		display: flex;
