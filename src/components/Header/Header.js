@@ -5,9 +5,8 @@ import menuWhite from "../../images/menuIconWhite.svg";
 import menuBlack from "../../images/menuIconBlack.svg";
 import closeIcon from "../../images/closeIcon.svg";
 import React from 'react';
-function Header() {
+function Header(props) {
     const [isNavOpen, setIsNavOpen] = React.useState(false);
-
     function handleMenuClick() {
         setIsNavOpen(!isNavOpen);
     }
@@ -32,7 +31,7 @@ function Header() {
                             />}
                         </button>
                     </div>
-                    <Navigation isNavOpen={isNavOpen} />
+                    <Navigation isNavOpen={isNavOpen} onSignIn={props.onSignIn} />
                 </header>
             </Route>
             <Route exact path="/">
@@ -53,7 +52,7 @@ function Header() {
                             />}
                         </button>
                     </div>
-                    <Navigation isNavOpen={isNavOpen} />
+                    <Navigation isNavOpen={isNavOpen} onSignIn={props.onSignIn} />
                 </header>
             </Route>
         </>

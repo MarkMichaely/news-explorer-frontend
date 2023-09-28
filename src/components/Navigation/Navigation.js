@@ -6,7 +6,7 @@ import logoutBlack from "../../images/logOutIconBlack.svg";
 
 function Navigation(props) {
     const isLoggedIn = false;
-
+    console.log(props)
 
     const currentPage = useLocation().pathname;
     return (
@@ -63,6 +63,7 @@ function Navigation(props) {
                         </NavLink>
 
                         <button
+                            onClick={props.onSignIn}
                             className={`nav__button 
                 ${currentPage === '/saved-news' ? 'nav__button_black' : ''}
                 ${props.isNavOpen ? 'nav__button nav__button_nav-open' : 'nav__button'}
